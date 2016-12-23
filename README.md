@@ -11,7 +11,7 @@ commits keeps rolling in, and pile up like a small montain.
 And one day, the hidden mine explodes, and undo the damage is next to impossible.
 
 This project aims to sanitize the commits, detect and reject those operations that
-are just [plain out wrong](#Enforced_Rules).
+are just [plain out wrong](#enforced-rules).
 
 It exposes the problem early so that correction are relatively painless, at least
 compared to the alternatives described above.
