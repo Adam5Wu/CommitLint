@@ -1,17 +1,17 @@
 # CommitLint
 
-People (myself included) sometime do crazily stupid things to their repo.
+People (myself included) sometimes do crazily stupid things to their repo.
 
 Maybe because of the lack of knowledge, maybe because they are in a hurry, and
 operate repo without first reaching a state of mental clarity.
 
 In any case, some of those bad deeds goes undiscovered, for months, while
-commits keeps rolling in and pile up like a small montain.
+commits keeps rolling in, and pile up like a small montain.
 
 And one day, the hidden mine explodes, and undo the damage is next to impossible.
 
 This project aims to sanitize the commits, detect and reject those operations that
-are just plain out wrong.
+are just [plain out wrong](#Enforced_Rules).
 
 It exposes the problem early so that correction are relatively painless, at least
 compared to the alternatives described above.
