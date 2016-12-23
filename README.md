@@ -21,7 +21,7 @@ compared to the alternatives described above.
 1. You use annotated tags for marking release versions.
 2. Tagging scheme follows the requirements of the [VersionLint](https://github.com/Adam5Wu/VersionLint) utility.
 
-## Enforced rules
+## Enforced Rules
 
 1. Tag prefix does not conform to VersionLint requirement
 
@@ -29,7 +29,7 @@ compared to the alternatives described above.
   ```
   ERROR: New tag 'x1.1' does not use an acceptable prefix
   ```
-2. Two releases with different version CANNOT be on the same commit
+2. Two releases with different versions (i.e. tags) CANNOT be on the same commit
 
   Error message sample:
   ```
@@ -45,6 +45,6 @@ compared to the alternatives described above.
     ERROR: Detected wrong way merge: 1.1 < 2.0
   ```
   
-## How to use
+## How To Use
 
 Place the "custom_hooks" under the remote Git projects' root.
